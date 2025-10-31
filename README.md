@@ -5,6 +5,7 @@ The College Dashboard is Student Management System is a web-based application bu
 
 This is intended for educational purposes to demonstrate how to construct a complete full-stack ASP.NET Core MVC application using Entity Framework Core integrated with SQL Server.
 
+
 ⚙️ Features
 
 ➕ Add new records of students
@@ -13,11 +14,12 @@ This is intended for educational purposes to demonstrate how to construct a comp
 
 👀 Display all student records in tabular form
 
-X Delete student records
+ X Delete student records
 
 💾 SQL Server database integration using Entity Framework Core
 
 🧭 User-friendly interface built with Bootstrap 5
+
 
 🧩 Technologies Used
 
@@ -31,9 +33,9 @@ SQL Server / LocalDB
 
 HTML5, CSS3, Bootstrap 5
 
+
 Installation Steps ????️
 1️⃣ Clone or Download the Project
-
 
 git clone https://github.com/your-username/CollegeStudentManagement.git
 
@@ -56,8 +58,8 @@ Modify the connection string according to your local SQL Server configuration:
 
 Scientists and astronomers have many new reasons to be interested in asteroids, and astronomers keep discovering many of them every year.
 
-4️⃣ Apply Migrations and Create Database
 
+4️⃣ Apply Migrations and Create Database
 
 Open Package Manager Console in Visual Studio and run:
 
@@ -67,17 +69,15 @@ Update-Database
 
 This will automatically create the required database and tables.
 
+
 ▶️ How to Run the Project
 
 Set the project as the Startup Project.
-
 
 Press F5 or click ▶️ IIS Express to run the app.
 
 The browser will open automatically at a URL like:
 http://localhost:5032
 Manage student records at /Students - Add, Edit, Delete, View
-????‍???? Sample URLs
-Action\tURL Example
 Home Page	http://localhost:5032
 Student List	https://localhost:5032/Students
